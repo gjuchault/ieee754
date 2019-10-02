@@ -1,0 +1,21 @@
+{
+  "name": "ieee754",
+  "version": "0.1.0",
+  "description": "IEEE754 implementation in TS",
+  "main": "index.ts",
+  "repository": "git@github.com:gjuchault/ieee754.git",
+  "author": "Gabriel Juchault <gabriel.juchault@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "ava --config ava.config.js",
+    "lint": "prettier --write \"src/**/*.ts\""
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "prettier": "^1.18.2",
+    "typescript": "^3.6.3"
+  },
+  "dependencies": {
+    "ts-node": "^8.4.1"
+  }
+}
